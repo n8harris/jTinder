@@ -40,8 +40,8 @@
 
 		init: function (element) {
 
-			container = $(">ul", element);
-			panes = $(">ul>li", element);
+			container = $(element);
+			panes = $(">div", element);
 			pane_width = container.width();
 			pane_count = panes.length;
 			current_pane = panes.length - 1;
